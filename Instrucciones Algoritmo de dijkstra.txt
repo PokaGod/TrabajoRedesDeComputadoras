@@ -1,0 +1,35 @@
+Para la ejecucion del codigo se piden los siguientes pasos:
+
+1. Ingresar el numero de vertices (enrutadores)
+
+2. Posteriormente se debe ingresar la matriz de adyacencia, se adjunta 
+la matriz correspondiente para cada topologia.
+
+	-Complejidad baja:
+	
+	0 3 5 0 0 0 0 0
+	3 0 0 0 6 0 0 0
+	5 0 0 1 0 0 0 0 
+	0 0 1 0 0 3 0 0 
+	0 6 0 0 0 0 0 7
+	0 0 0 3 0 0 1 2
+	0 0 0 0 0 1 0 4
+	0 0 0 0 7 2 4 0
+	
+	-Complejidad alta:
+
+	0 2 4 1 0 0 0 0 0 0 0
+	2 0 0 0 1 0 0 0 0 0 0
+	4 0 0 0 5 3 0 0 0 0 7
+	1 0 0 0 0 0 5 0 0 0 0
+	0 1 5 0 0 0 0 8 7 0 0
+	0 0 3 0 0 0 2 0 9 0 0
+	0 0 0 5 0 2 0 0 0 4 0
+	0 0 0 0 8 0 0 0 0 0 2
+	0 0 0 0 7 9 0 0 0 6 0
+	0 0 0 0 0 0 0 4 6 0 3
+	0 0 7 0 0 0 0 2 0 3 0
+
+
+3.Finalmente se nos pedira ingresar el vertice de inicio, para lo cual se 
+digitara '0' (El programa empiza a contar los nodos desde el 0)
